@@ -1,0 +1,12 @@
+
+CFLAGS += -O2
+
+CSRC:= a.c \
+	   b.c
+
+MODULE:= subdir1 \
+	     subidr2
+
+# include build.mk
+include $(SCRIPTS)/build.mk
+
